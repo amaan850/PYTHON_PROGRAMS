@@ -1,0 +1,10 @@
+fname = input("eneter your name")
+age = int(input("enter your age"))
+s1 = "Hello " + fname + " your age is " + str(age)
+print(s1)
+print("#############")
+s1 = "hello {0} your age is {1}".format(fname, age)
+print(s1)
+print("#############")
+s1 = f"hello {fname} your age is {age}"
+print(s1)
